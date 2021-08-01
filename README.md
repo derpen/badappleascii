@@ -9,7 +9,7 @@ It's Terrible.
 ## To play
 > python play.py
 
-## To use on other video
+## I want to convert other video to ascii
 > dont use this code for other video.
 
 ## Requirements
