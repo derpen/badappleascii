@@ -4,7 +4,7 @@ import sys
 for count in range(0, 6571):
 
     def setupAsciiMapping():
-        characterSet = list(('W'*18)+'!!!!!!!!')
+        characterSet = list(('!'*18)+'WWWWWWWW')
         for i in range(26):
             for j in range(10):
                 asciiToNum[i*10+j]=characterSet[i]
@@ -25,7 +25,7 @@ for count in range(0, 6571):
         ascii+= ' '.join(i)
         ascii+='\n'
 
-    with open('asciiFrame%d.jpg' % count, 'w') as f:
+    with open('asciiFrame%d.txt' % count, 'w') as f:
         sys.stdout = f
         print(ascii)
 
