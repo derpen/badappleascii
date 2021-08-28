@@ -1,8 +1,10 @@
 # BadApple on ASCII
 
-Running the bad apple on the terminal as ascii characters.
+Convert a video to ASCII. Currenly only works on grayscaled video.
 
-It's Terrible.
+The examples run [bad apple](https://www.youtube.com/watch?v=FtutLA63Cp8) on the terminal as ascii characters.
+
+It's Terrible, but it works.
 
 # Usage
 
@@ -10,7 +12,7 @@ It's Terrible.
 > python play.py
 
 ## I want to convert other video to ascii
-> dont use this code for other video.
+> run extractFrame then toASCII. And then copy every result to Frames folder.
 
 ## Requirements
-> I dont know. Python 3 or something.
+> python 3, openCV.
