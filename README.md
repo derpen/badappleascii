@@ -2,7 +2,7 @@
 
 Convert a video to ASCII. Currenly only works on grayscaled video.
 
-The examples run [bad apple](https://www.youtube.com/watch?v=FtutLA63Cp8) on the terminal as ascii characters.
+The examples run [bad apple](https://www.youtube.com/watch?v=FtutLA63Cp8) on the terminal as ascii characters. No sound though(yet). 
 
 It's Terrible, but it works.
 
