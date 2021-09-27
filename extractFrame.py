@@ -1,18 +1,23 @@
 import cv2
+import os
 from PIL import Image
 
 vidcap = cv2.VideoCapture('BadApple.mkv')
 success,image = vidcap.read()
 
+if not os.path.exists('Frames'):
+    os.makedirs('Frames')
+
 count = 0;
 while success:
     success,image = vidcap.read()
-    cv2.imwrite("frame%d.jpg" % count, image)
+    cv2.imwrite("Frames/frame%d.jpg" % count, image)
 
-    resizedPic = Image.open("frame%d.jpg" % count)
-    resizedPic.thumbnail((50,50))
+    resizedPic = Image.open("Frames/frame%d.jpg" % count)
+    resizedPic.thumbnail((75,75))
     resizedPic.save("Frames/frame%d.jpg" % count)
 
     if cv2.waitKey(10) == 27:
         break
+    print("Done extracting frame %d" % count)
     count +=1
