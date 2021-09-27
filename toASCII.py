@@ -1,7 +1,10 @@
 import cv2
 import sys
+import os
 
-for count in range(0, 6571):
+amountOfFrames = len(os.listdir('Frames'))
+
+for count in range(0, amountOfFrames): 
 
     def setupAsciiMapping():
         characterSet = list(('!'*18)+'WWWWWWWW')
