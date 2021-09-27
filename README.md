@@ -2,9 +2,12 @@
 
 Convert a video to ASCII. Currenly only works on grayscaled video.
 
-The examples run [bad apple](https://www.youtube.com/watch?v=FtutLA63Cp8) on the terminal as ascii characters. No sound though(yet). 
+The example run [bad apple](https://www.youtube.com/watch?v=FtutLA63Cp8) on the terminal as ascii characters. No sound though(yet). 
 
-It's Terrible, but it works.
+# TODO
+* add sound
+* fix framerate
+* organize everything into one file
 
 # Usage
 
@@ -12,7 +15,7 @@ It's Terrible, but it works.
 > python play.py
 
 ## I want to convert other video to ascii
-> run extractFrame then toASCII. And then copy every result to Frames folder.
+> run extractFrame -> toASCII -> play in that order
 
 ## Requirements
 > python 3, openCV.
