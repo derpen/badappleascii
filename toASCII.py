@@ -35,5 +35,3 @@ for count in range(0, amountOfFrames):
         print(ascii)
 
 
-for files in frameNames:
-    os.remove(os.path.join('Frames', files))
