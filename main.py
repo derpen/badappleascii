@@ -32,6 +32,5 @@ if __name__ == '__main__':
             print("Bye")
             exit()
         else:
-            print("Wrong Input!")
-
+            print("ENTER THE CORRECT NUMBER YOU FOUL!")
 
