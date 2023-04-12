@@ -4,7 +4,7 @@ from deleteFrames import delete
 from deleteFrames import deleteAll
 from play import playvideo
 
-if __name__ == '__main__':
+if __name__ = '__main__': # Add main back
     while(True):
         print("Video2ASCII converter (rename ur file in extractFrame.py)")
         print("Select choice")
@@ -32,5 +32,5 @@ if __name__ == '__main__':
             print("Bye")
             exit()
         else:
-            print("ENTER THE CORRECT NUMBER YOU FOUL!")
+            print("ENTER THE CORRECT NUMBER")
 
